@@ -1,0 +1,132 @@
+# Audio Beat - Android
+# Based on GitHub Android template:
+# https://github.com/github/gitignore/blob/HEAD/Android.gitignore
+
+# Built application files
+
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# ART / Dalvik VM files
+
+*.dex
+
+# Java / Kotlin compiled files
+
+*.class
+
+# Generated files
+
+bin/
+gen/
+out/
+
+# Gradle generated files
+
+.gradle/
+build/
+
+# Kotlin generated/cache files
+
+.kotlin/
+
+# Local machine configuration
+#
+# Contains the local Android SDK path.
+
+local.properties
+
+# Android Studio / IntelliJ local files
+
+.idea/
+*.iml
+
+# ProGuard generated folder
+
+proguard/
+
+# Logs
+
+*.log
+
+# Android Studio Navigation editor temporary files
+
+.navigation/
+
+# Android Studio captures
+
+captures/
+
+# Android signing credentials
+#
+# NEVER commit production signing keys.
+
+*.jks
+*.keystore
+key.properties
+keystore.properties
+
+# External native build output
+
+.externalNativeBuild/
+.cxx/
+
+# Google Services
+#
+# Keep this excluded unless intentionally publishing
+# Firebase/Google service configuration.
+
+google-services.json
+
+# Freeline
+
+freeline.py
+freeline/
+freeline_project_description.json
+
+# Fastlane generated files
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+fastlane/readme.md
+
+# Version control metadata
+
+vcs.xml
+
+# Android lint generated files
+
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+
+# Android profiling
+
+*.hprof
+
+# Capacitor-generated Cordova plugin project
+#
+# Recreated by Capacitor.
+
+capacitor-cordova-android-plugins/
+
+# Capacitor copied web application
+#
+# Generated from the Vite build during Capacitor sync.
+# The original React/TypeScript source lives in /src.
+
+app/src/main/assets/public/
+
+# Capacitor generated configuration files
+
+app/src/main/assets/capacitor.config.json
+app/src/main/assets/capacitor.plugins.json
+
+# Generated Cordova configuration
+
+app/src/main/res/xml/config.xml
