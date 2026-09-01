@@ -1,0 +1,180 @@
+# ============================================================
+# Audio Beat - Root Git Ignore
+# ============================================================
+
+
+# ------------------------------------------------------------
+# Logs
+# ------------------------------------------------------------
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# ------------------------------------------------------------
+# Node dependencies
+# ------------------------------------------------------------
+
+node_modules/
+**/node_modules/
+
+
+# ------------------------------------------------------------
+# Frontend build output
+# ------------------------------------------------------------
+
+dist/
+dist-ssr/
+build/
+coverage/
+
+
+# ------------------------------------------------------------
+# Environment files / secrets
+#
+# NEVER upload real API keys, secrets or tokens.
+# ------------------------------------------------------------
+
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Allow safe example environment files
+!.env.example
+!**/.env.example
+
+
+# ------------------------------------------------------------
+# Local configuration files
+# ------------------------------------------------------------
+
+*.local
+
+
+# ------------------------------------------------------------
+# Netlify local/generated files
+#
+# NOTE:
+# backend/netlify/ is NOT ignored.
+# That folder contains our actual Netlify Function source.
+# ------------------------------------------------------------
+
+.netlify/
+**/.netlify/
+
+
+# ------------------------------------------------------------
+# Android / Gradle generated files
+#
+# Android source code itself is NOT ignored.
+# ------------------------------------------------------------
+
+.gradle/
+android/.gradle/
+android/.kotlin/
+android/.idea/
+
+android/build/
+android/app/build/
+
+**/.cxx/
+**/.externalNativeBuild/
+
+
+# ------------------------------------------------------------
+# Android machine-specific configuration
+# ------------------------------------------------------------
+
+android/local.properties
+local.properties
+
+
+# ------------------------------------------------------------
+# Android signing credentials
+# ------------------------------------------------------------
+
+*.jks
+*.keystore
+key.properties
+keystore.properties
+
+
+# ------------------------------------------------------------
+# Generated Android packages
+# ------------------------------------------------------------
+
+*.apk
+*.aab
+*.aar
+
+
+# ------------------------------------------------------------
+# Capacitor generated Android files
+#
+# Source Kotlin / Android code remains included.
+# ------------------------------------------------------------
+
+android/capacitor-cordova-android-plugins/
+
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+
+android/app/src/main/res/xml/config.xml
+
+
+# ------------------------------------------------------------
+# Editor directories and files
+# ------------------------------------------------------------
+
+.vscode/*
+!.vscode/extensions.json
+
+.idea/
+
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+
+
+# ------------------------------------------------------------
+# Operating-system generated files
+# ------------------------------------------------------------
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+
+# ------------------------------------------------------------
+# Temporary/cache files
+# ------------------------------------------------------------
+
+.cache/
+.eslintcache
+
+*.tmp
+*.temp
+*.bak
+*~
+
+tmp/
+temp/
+
+
+# ------------------------------------------------------------
+# Generated GitHub modernization tooling
+# ------------------------------------------------------------
+
+.github/modernize/
